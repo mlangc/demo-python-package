@@ -1,5 +1,5 @@
 # Demo Python Package for Demo Purposes
-## Setup Develop Environment
+## Setup develop environment
 ```shell script
 python3 -m venv venv
 source venv/bin/activate
@@ -21,4 +21,8 @@ python3 setup.py bdist_wheel
 The resulting wheel package in `dist` can be installed with `pip` like so:
 ```shell script
 pip install demo_python_package-0.0.2-py3-none-any.whl
+```
+## Install directly from git repository
+```shell script
+pip install git+https://github.com/mlangc/demo-python-package.git
 ```
