@@ -1,2 +1,2 @@
-from . this import *
-from . that import *
+from .this import *
+from .that import *
