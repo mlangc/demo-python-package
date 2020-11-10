@@ -1,5 +1,9 @@
-from simplelib import simple_fun
+import simplelib
 
 
 def test_simple_fun():
-    assert simple_fun(2) == 4
+    assert simplelib.simple_fun(2) == 4
+
+
+def test_get_version():
+    assert simplelib.get_version()

@@ -3,3 +3,4 @@ mypy
 pytest
 setuptools
 wheel
+version-query
